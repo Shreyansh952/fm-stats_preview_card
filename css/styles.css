@@ -108,8 +108,8 @@
 
   picture {
     position: relative;
-    /* min-height: 100%; */
   }
+  
   .photo{
     min-height: 100%;
     width: 100%;
@@ -147,15 +147,17 @@
 
 @media (min-width:960px){
     .card{
-        --content-padding: 4em;
+        --content-padding: 4em 6em 4em 4em;
         --content-spacing:2rem;
 
 
         display: flex;
         flex-direction: row-reverse;
         max-width: 1000px;
-        max-height: 450px;
+        max-height: 580px;
     }
+
+  
     .card-body{
         width: 50%;
         text-align: left;
